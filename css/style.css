@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    /* overflow-x: hidden; */
+}
+:root{
+    --purple: purple;
+    --plum : plum;
+    --peru : peru;
+    --OrangePeel : #FFA000;
+    --Tangerine : #F94D00;	
+    --fb:#5475bd;
+    --magenda : #FF00FF
+}
+.purple{
+    background: var(--purple);
+}
+.peru{
+    background: var(--peru);
+}
+.plum{
+    background: var(--plum);
+}
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+.header{
+    background: #3B5999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.header .logo{
+    margin-left: 10px;
+    font-size: 1.7rem;
+    color: white;
+    font-weight: bold;
+}
+.header .logFrom{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.header .logFrom label{
+    position: absolute;
+    top: 0;
+    margin: 5px 0;
+    color: white;
+}
+.header .logFrom input{
+    padding: 7px 0 7px 10px;
+    font-size: 1rem;
+    margin: 6px 11px 0px 0px;
+    outline: none;
+
+}
+.header .logFrom button.logBtn{
+    padding: 6px 10px;
+    font-size: 1rem;
+    margin: 6px 11px 0px 0px;
+    outline: none;
+    border: none;
+    color: white;
+    background: #5475bd;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    background: #C5CCDF;
+}
+.wrapper .leftside{
+    flex-basis: 70%;
+    padding: 30px;
+}
+
+.wrapper .rightside{
+    flex-basis: 30%;
+    padding: 30px;
+}
+.wrapper .rightside h4{
+    font-size: 1.5rem;
+    margin-bottom: 8px;
+}
+.wrapper .rightside p{
+    font-size: 1rem;
+    margin-bottom: 8px;
+}
+.wrapper .rightside input{
+    width: 100%;
+    outline: none;
+    padding: 4px 0;
+}
+.wrapper .rightside button#singupBtn{
+    margin-top: 15px;
+    width: 100%;
+    outline: none;
+    padding: 4px 0;
+    font-size: 1.3rem;
+    background: #71AB57;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 5rem 0;
+}
+.container .card{
+    width: 30%;
+    cursor: pointer;
+}
+.container .card .content{
+    position: relative;
+    bottom: 35px;
+    left: 18px;
+    color: white;
+}
+.fheader{
+    min-height: 100px;
+    background: rebeccapurple;
+}
+.fwrapper{
+    overflow: hidden;
+}
+.m-h-1{
+    min-height: 300px;
+}
+.fwrapper .contact{
+    width: 65%;
+    background: #5475bd;
+    float: left;
+}
+.fwrapper .blog{
+    width: 35%;
+    background: #71AB57;
+    float: right;
+}
+.fwrapper .single{
+    width: 33.33%;
+    min-height: 350px;
+    float: left;
+}
+
+.fwrapper .contactsection{
+    width: 65%;
+    min-height: 100px;
+    background: var(--OrangePeel);
+    float: left;
+}
+.fwrapper .articleSection{
+    width: 35%;
+    min-height: 410px;
+    background: var(--Tangerine);
+    float: right;
+}
+.fwrapper .contactsection .service{
+    width: 30.33%;
+    min-height: 350px;
+    float: left;
+    background: var(--fb);
+    margin: 30px 18px;
+}
+.headbar{
+    background: var(--fb);
+    min-height: 150px;
+    padding: 52px 0;
+    overflow: hidden;
+}
+.headbar .hlogo{
+    width: 10%;
+    float: left;
+    height: 50px;
+    background: var(--magenda);
+    margin-left: 70px;
+}
+.headbar .links{
+    width: 70%;
+    float: right;
+    min-height: 50px;
+    /* background: var(--magenda); */
+    margin-right: -7%;
+}
+.headbar .links .link{
+    width: 15%;
+    float: left;
+    min-height: 50px;
+    background: var(--magenda);
+    margin: 0 10px;
+}
